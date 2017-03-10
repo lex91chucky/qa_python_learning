@@ -7,12 +7,12 @@ print(len(s1))
 s1.sort()
 
 for i in s1:
-    i=i.strip("!" + "," + "(" + ")"+ ".")
+    i=i.strip("!,().")
     print(i)
 
 d = {}
 for i in s1:
-    i=i.strip("!" + "," + "(" + ")"+ ".")
+    i=i.strip("!,().")
     if i in d:
         d[i] = d[i] + 1
     else:
