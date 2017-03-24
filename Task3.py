@@ -1,5 +1,5 @@
-def distance(x1, x2, y1, y2):
-    res = ((x1-x2)**2+(y1-y2)**2)**1/2
+def distance(x1, x2, y1, y2): 
+    res = ((x1-x2)**2+(y1-y2)**2)**(1/2)
     return res
 x1 = input("x1 = ")
 x1 = float(x1)
